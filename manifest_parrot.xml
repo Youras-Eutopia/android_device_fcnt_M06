@@ -20,11 +20,6 @@
         <fqname>@1.0::IBluetoothHci/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.bluetooth.audio</name>
-        <transport>hwbinder</transport>
-        <fqname>@2.0::IBluetoothAudioProvidersFactory/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>android.hardware.camera.provider</name>
         <transport>hwbinder</transport>
         <fqname>@2.7::ICameraProvider/legacy/1</fqname>
@@ -85,10 +80,6 @@
         <transport>hwbinder</transport>
         <fqname>@1.0::IAnt/default</fqname>
     </hal>
-    <hal format="aidl">
-        <name>com.fingerprints.fpc.extension</name>
-        <fqname>IFpcExtension/default</fqname>
-    </hal>
     <hal format="hidl">
         <name>com.qualcomm.qti.dpm.api</name>
         <transport>hwbinder</transport>
@@ -103,11 +94,6 @@
         <name>com.qualcomm.qti.uceservice</name>
         <transport>hwbinder</transport>
         <fqname>@2.3::IUceService/com.qualcomm.qti.uceservice</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.fujitsu.hardware.wifi.ssr</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::ISsr/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.data.factory</name>
@@ -185,16 +171,6 @@
         <name>vendor.qti.hardware.dsp</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::IDspService/dspservice</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.hardware.embmssl</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.1::IEmbms/embmsslServer0</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.hardware.factory</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.1::IFactory/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.hardware.fm</name>
@@ -286,11 +262,6 @@
         <fqname>@1.0::IUimRemoteServiceServer/uimRemoteServer1</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.qti.hardware.secureprocessor.device</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::ISecureProcessor/qti-tee</fqname>
-    </hal>
-    <hal format="hidl">
         <name>vendor.qti.hardware.sensorscalibrate</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::ISensorsCalibrate/default</fqname>
@@ -312,11 +283,6 @@
         <name>vendor.qti.hardware.tui_comm</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::ITuiComm/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.hardware.wifi.wifilearner</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::IWifiStats/wifiStats</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.hardware.wifidisplaysession</name>
